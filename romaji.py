@@ -1,6 +1,9 @@
-vowels = {"あ": "a", "い": "i", "う": "u", "え": "e", "お": "o"}
+kana = {
+    "あ": "a", "い": "i", "う": "u", "え": "e", "お": "o",
+    "か": "ka", "き": "ki", "く": "ku", "け": "ke", "こ": "ko",
+}
 
 text = "あいう"
 
 for letter in text:
-    print(vowels[letter], end="")
+    print(kana[letter], end="")
