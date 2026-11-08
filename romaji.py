@@ -5,7 +5,7 @@ kana = {
         "た": "ta", "ち": "chi", "つ": "tsu", "て": "te", "と": "to",
 }
 
-text = "あいう"
+text = input("Type hiragana: ")
 
 for letter in text:
     print(kana.get(letter, letter), end="")
