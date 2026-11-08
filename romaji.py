@@ -8,4 +8,5 @@ kana = {
 text = "あいう"
 
 for letter in text:
-    print(kana[letter], end="")
+    print(kana.get(letter, letter), end="")
+print()
